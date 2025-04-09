@@ -1,0 +1,9 @@
+<resources>
+    <!-- Base application theme for dark mode. -->
+    <style name="Theme.MyApplication" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FF9A03</item>
+        <item name="colorPrimaryDark">#F57C00</item>
+        <item name="colorAccent">#FF9A03</item>
+    </style>
+</resources>

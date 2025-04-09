@@ -1,0 +1,31 @@
+<resources>
+    <!-- Tema yang sudah ada tetap ada -->
+    <style name="Theme.MyApplication" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FF9A03</item>
+        <item name="colorPrimaryDark">#F57C00</item>
+        <item name="colorAccent">#FF9A03</item>
+    </style>
+
+    <!-- Tambahkan tema baru di sini -->
+    <style name="Theme.TransparentActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Warna utama tema -->
+        <item name="colorPrimary">#FF9A03</item>
+        <item name="colorPrimaryDark">#F57C00</item>
+        <item name="colorAccent">#FF9A03</item>
+
+        <!-- Membuat action bar transparan -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+
+        <!-- Backgroud transparan untuk action bar -->
+        <item name="android:actionBarStyle">@style/TransparentActionBar</item>
+        <item name="actionBarStyle">@style/TransparentActionBar</item>
+    </style>
+
+    <style name="TransparentActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="background">@android:color/transparent</item>
+    </style>
+</resources>
